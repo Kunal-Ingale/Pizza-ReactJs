@@ -12,9 +12,12 @@ function App() {
 
   return (
     <>
+    
     <BrowserRouter>
       <Nav/>
+      
       <Routes>
+        <Route path='/Pizza-web-React/'  element={<Home/>}/>
         <Route path='/'  element={<Home/>}/>
         <Route path='/menu'  element={<Menu/>}/>
         <Route path='/about'  element={<About/>}/>
